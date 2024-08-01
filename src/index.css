@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Font-Face Declarations */
+@font-face {
+  font-family: 'Young Serif';
+  src: url('../src/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; /* Changed to normal if the font is not italicized */
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('../src/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; /* Changed to normal if the font is not italicized */
+}
+
+.bullet-dark-raspberry li::marker {
+  color: hsl(332, 51%, 32%); /* DarkRaspberry color */
+  font-size: 0.75em;
+}
+.bullet-nutmeg li::marker{
+  color:hsl(14, 45%, 36%);
+}
+
