@@ -1,5 +1,5 @@
 function Preparation(){
-    return <div>
+    return <div className="bg-[#FFF7FC] p-5 rounded-md">
                 <div className="ml-14 ">
             <div className="items-center justify-center">
                 <h2 className="font-outfit sm:text-xl mb-3 sm:font-semibold xs:text-primary-DarkRaspberry">Preparation time</h2>
